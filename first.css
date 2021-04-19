@@ -1,0 +1,55 @@
+body{
+    background-color: blanchedalmond;
+}
+.search-container{
+    /* position: relative; */
+    
+}
+.todo-box{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    border-style: solid;
+    width: 500px;
+    height: 250px;
+    overflow: scroll;
+}
+.search{
+    position:absolute;
+    top: 20%;
+    left:5%;
+}
+.todo-item-container{
+    position: absolute;
+    top: 35%;
+    left:5%;
+    
+    
+}
+.search-icon{
+    position: relative;
+    top: 4%;
+    left: 40%;
+    font-weight:bolder;
+    
+}
+
+.search-box:hover{
+    background-color: rgb(208, 208, 219);
+    
+}
+.search-box:focus{
+    content:' test'
+}
+
+.todo-items{
+    cursor: pointer;
+}
+.todo-items-strike{
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.toggle{
+    display:none;
+}
